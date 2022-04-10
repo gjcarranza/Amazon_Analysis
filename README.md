@@ -42,3 +42,5 @@ The purpose of this analysis is to predict credit risk for loan borrowers by bui
 ---
 
 # Summary
+
+The methods tested follow similar trends where the model predicted with higher accuracy for low-risk borrowers, and slightly lower accuracy for high-risk borrowers hence producing the possibility of consumers defaulting on a loan. The only methods that does not follow this trend are naive random oversampling and combination sampling. The method with highest accuracy is easy ensemble ADA classifier with the lowest accuracy per method being undersampling. With this information, it is strongly recommended to use the easy ensemble ADA classifier method as it has achieved higher accuracy for future models.
